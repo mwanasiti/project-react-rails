@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   
+  resources :user_profiles
   resources :traveller_flights
   resources :flights
   resources :travellers
