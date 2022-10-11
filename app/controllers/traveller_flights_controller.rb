@@ -1,0 +1,2 @@
+class TravellerFlightsController < ApplicationController
+end
