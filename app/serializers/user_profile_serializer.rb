@@ -2,15 +2,15 @@ class UserProfileSerializer < ActiveModel::Serializer
   attributes :name, :password
 
   def id
-    self.object.traveller.id
+    self.object.user_profile.id
   end
 
-  def first_name
-    self.object.traveller.name
+  def name
+    self.object.user_profile.name
   end
 
-  def last_name
-    self.object.traveller.password
+  def password
+    self.object.user_profile.password
   end
 
 end
